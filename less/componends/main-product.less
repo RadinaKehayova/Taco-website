@@ -3,6 +3,7 @@
 .main-product {
     background-color: @color-white;
     padding: 3.12rem;
+    border-radius: 10px;
 
     @media only screen and (min-width: @tablet) {
         display: flex;
@@ -13,6 +14,7 @@
         background-color: @color-orange;
         margin-left: 2rem;
         padding: 20px 30px;
+        border-radius: 10px;
 
     }
 
@@ -40,3 +42,40 @@
     }
    
 }
+
+input[type=text],input[type=email],  select, textarea {
+    width: 100%; 
+    padding: 12px; 
+    border: 1px solid #ccc; 
+    border-radius: 10px; 
+    box-sizing: border-box; 
+    margin-top: 6px; 
+    margin-bottom: 16px; 
+    resize: vertical 
+  }
+  
+  input[type=submit] {
+    background-color: @color-white;
+    color: @color-black;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+  }
+  
+  .container-form {
+    border-radius: 10px;
+    background-color: @color-white;
+    padding: 40px;
+    margin-top: 20px;
+  }
+ .contact-title{
+     font-size: 25px;
+     text-align: center;
+ }
+ .form-holder{
+    border-radius: 10px;
+    background-color: @color-orange;  
+    padding: 20px;
+ }
+  
